@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 50%; /* Make the text input take up 50% of the form width */
+    padding: 8px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+form input[type="submit"] {
+    width: auto; /* Ensure the submit button is sized according to its content */
+    padding: 8px 16px; /* Add padding for better appearance */
+    margin-top: 10px; /* Add margin to separate from the text input */
+}
